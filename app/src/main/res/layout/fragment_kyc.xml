@@ -22,7 +22,7 @@
                <TextView
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
-                   android:text="Know Your Candidate"
+                   android:text="@string/knowyour"
                    android:textAlignment="center"
                    android:textSize="30sp"
                    android:textStyle="bold"/>
@@ -47,17 +47,11 @@
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:text="Name : Narender Modi"
+                           android:text="@string/modi"
                            android:textSize="20sp"
                            android:padding="5dp"
                            />
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:text="Party : BJP"
-                           android:textSize="20sp"
-                           android:padding="5dp"
-                           />
+
                        <android.support.v7.widget.LinearLayoutCompat
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
@@ -65,7 +59,7 @@
                            <TextView
                                android:layout_width="match_parent"
                                android:layout_height="wrap_content"
-                               android:text="Download : "
+                               android:text="@string/bjp"
                                android:textSize="20sp"
                                android:padding="5dp"
                                />
@@ -81,7 +75,7 @@
                                <TextView
                                    android:layout_width="wrap_content"
                                    android:layout_height="wrap_content"
-                                   android:text="Symbol"
+                                   android:text="@string/symbol"
                                    android:textSize="13sp"
                                    android:layout_marginStart="55dp"/>
                            </android.support.v7.widget.LinearLayoutCompat>
@@ -115,17 +109,11 @@
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:text="Name : Narender Modi"
+                           android:text="@string/modi"
                            android:textSize="20sp"
                            android:padding="5dp"
                            />
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:text="Party : BJP"
-                           android:textSize="20sp"
-                           android:padding="5dp"
-                           />
+
                        <android.support.v7.widget.LinearLayoutCompat
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
@@ -133,7 +121,7 @@
                            <TextView
                                android:layout_width="match_parent"
                                android:layout_height="wrap_content"
-                               android:text="Download : "
+                               android:text="@string/bjp"
                                android:textSize="20sp"
                                android:padding="5dp"
                                />
@@ -149,7 +137,7 @@
                                <TextView
                                    android:layout_width="wrap_content"
                                    android:layout_height="wrap_content"
-                                   android:text="Symbol"
+                                   android:text="@string/symbol"
                                    android:textSize="13sp"
                                    android:layout_marginStart="55dp"/>
                            </android.support.v7.widget.LinearLayoutCompat>
@@ -183,17 +171,11 @@
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:text="Name : Narender Modi"
+                           android:text="@string/modi"
                            android:textSize="20sp"
                            android:padding="5dp"
                            />
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:text="Party : BJP"
-                           android:textSize="20sp"
-                           android:padding="5dp"
-                           />
+
                        <android.support.v7.widget.LinearLayoutCompat
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
@@ -201,7 +183,7 @@
                            <TextView
                                android:layout_width="match_parent"
                                android:layout_height="wrap_content"
-                               android:text="Download : "
+                               android:text="@string/bjp"
                                android:textSize="20sp"
                                android:padding="5dp"
                                />
@@ -217,7 +199,7 @@
                                <TextView
                                    android:layout_width="wrap_content"
                                    android:layout_height="wrap_content"
-                                   android:text="Symbol"
+                                   android:text="@string/symbol"
                                    android:textSize="13sp"
                                    android:layout_marginStart="55dp"/>
                            </android.support.v7.widget.LinearLayoutCompat>
@@ -251,17 +233,11 @@
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:text="Name : Narender Modi"
+                           android:text="@string/modi"
                            android:textSize="20sp"
                            android:padding="5dp"
                            />
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:text="Party : BJP"
-                           android:textSize="20sp"
-                           android:padding="5dp"
-                           />
+
                        <android.support.v7.widget.LinearLayoutCompat
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
@@ -269,7 +245,7 @@
                            <TextView
                                android:layout_width="match_parent"
                                android:layout_height="wrap_content"
-                               android:text="Download : "
+                               android:text="@string/bjp"
                                android:textSize="20sp"
                                android:padding="5dp"
                                />
@@ -285,7 +261,7 @@
                                <TextView
                                    android:layout_width="wrap_content"
                                    android:layout_height="wrap_content"
-                                   android:text="Symbol"
+                                   android:text="@string/symbol"
                                    android:textSize="13sp"
                                    android:layout_marginStart="55dp"/>
                            </android.support.v7.widget.LinearLayoutCompat>
@@ -300,6 +276,132 @@
 
                </android.support.v7.widget.LinearLayoutCompat>
            </android.support.v7.widget.CardView>
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:elevation="10dp"
+               app:cardCornerRadius="10dp"
+               >
+               <android.support.v7.widget.LinearLayoutCompat
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   <android.support.v7.widget.LinearLayoutCompat
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/modi"
+                           android:textSize="20sp"
+                           android:padding="5dp"
+                           />
+
+                       <android.support.v7.widget.LinearLayoutCompat
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal">
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="@string/bjp"
+                               android:textSize="20sp"
+                               android:padding="5dp"
+                               />
+                           <android.support.v7.widget.LinearLayoutCompat
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+                               <android.support.v7.widget.AppCompatImageView
+                                   android:layout_width="20dp"
+                                   android:layout_height="20dp"
+                                   android:layout_marginStart="65dp"
+                                   android:background="@drawable/bjp"/>
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="@string/symbol"
+                                   android:textSize="13sp"
+                                   android:layout_marginStart="55dp"/>
+                           </android.support.v7.widget.LinearLayoutCompat>
+                       </android.support.v7.widget.LinearLayoutCompat>
+
+                   </android.support.v7.widget.LinearLayoutCompat>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/modi"
+                       android:layout_margin="10dp"/>
+
+               </android.support.v7.widget.LinearLayoutCompat>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:elevation="10dp"
+               app:cardCornerRadius="10dp"
+               >
+               <android.support.v7.widget.LinearLayoutCompat
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   <android.support.v7.widget.LinearLayoutCompat
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/modi"
+                           android:textSize="20sp"
+                           android:padding="5dp"
+                           />
+
+                       <android.support.v7.widget.LinearLayoutCompat
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal">
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="@string/bjp"
+                               android:textSize="20sp"
+                               android:padding="5dp"
+                               />
+                           <android.support.v7.widget.LinearLayoutCompat
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+                               <android.support.v7.widget.AppCompatImageView
+                                   android:layout_width="20dp"
+                                   android:layout_height="20dp"
+                                   android:layout_marginStart="65dp"
+                                   android:background="@drawable/bjp"/>
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="@string/symbol"
+                                   android:textSize="13sp"
+                                   android:layout_marginStart="55dp"/>
+                           </android.support.v7.widget.LinearLayoutCompat>
+                       </android.support.v7.widget.LinearLayoutCompat>
+
+                   </android.support.v7.widget.LinearLayoutCompat>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/modi"
+                       android:layout_margin="10dp"/>
+
+               </android.support.v7.widget.LinearLayoutCompat>
+           </android.support.v7.widget.CardView>
+
        </LinearLayout>
    </ScrollView>
 </android.support.constraint.ConstraintLayout>

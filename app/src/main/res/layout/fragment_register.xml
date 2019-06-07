@@ -20,7 +20,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="10dp"
-        android:hint="Enter your name"
+        android:hint="@string/entern"
         android:textSize="20dp"
         android:background="@color/colorWhite"
         />
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@id/name"
         app:layout_constraintBottom_toTopOf="@id/reg_pass"
         android:layout_margin="10dp"
-        android:hint="Enter your email-id"
+        android:hint="@string/entere"
         android:textSize="20dp"
 
         android:background="@color/colorWhite"
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@id/reg_email"
         app:layout_constraintBottom_toTopOf="@id/button"
         android:layout_margin="10dp"
-        android:hint="Set your Password"
+        android:hint="@string/enterp"
         android:textSize="20dp"
         android:background="@color/colorWhite"
         />
@@ -63,13 +63,12 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="50dp"
-        android:text="Register"
+        android:text="@string/reg"
 
         android:textStyle="bold"
         android:textSize="20dp"
         android:background="@color/colorWhite"
         android:onClick="toastRegister"
         />
-
 
 </android.support.constraint.ConstraintLayout>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My Application</string>
     <string name="home_cc_1">Your Parliament Constituency</string>
@@ -12,6 +13,7 @@
     <string name="pc_1">CHANDNI CHOWK</string>
     <string name="pc_3">Chandni Chowk has 10 assembly constituencies, which are:</string>
     <string name="feedback">Feedback</string>
+    <string name="pc_2">In the heart of Old Delhi, Chandni Chowk is a very busy shopping area with markets full of spices, dried fruits, silver jewellery and vivid saris, while the narrow side streets are crowded with tiny shops selling essential oils, stationary and traditional Indian sweets.</string>
     <string name="Adarsh">Adarsh Nagar</string>
     <string name="Ballimaran">Ballimaran</string>
     <string name="Matai">Matai Mahal</string>
@@ -45,14 +47,12 @@
     <string name="search">To search name in the Electoral Roll</string>
     <string name="vote">To know how to vote</string>
     <string name="process">To know voting process at polling booth</string>
-
     <string name="modi">Name : Narender Modi</string>
     <string name="bjp">Party : BJP</string>
-
+    <string name="mobileno">Mobile no.</string>
     <string name="symbol">Symbol</string>
     <string name="head">For using the facility of pickup and drop enter your EPIC no. and mobile no</string>
     <string name="epicno">EPIC no.</string>
-    <string name="mobileno">Mobile no.</string>
     <string name="mobile">Enter your Mobile no.</string>
     <string name="pick">Pick-up </string>
     <string name="ptime">Enter Pick-up Time</string>
@@ -62,7 +62,6 @@
     <string name="otp">Enter OTP</string>
     <string name="phone">Verify Phone No.</string>
     <string name="app">Check out PwD app on Play Store</string>
-
     <string name="Ratings">Ratings :</string>
     <string name="write">Write your feedbcak/suggestions/complaints/here</string>
     <string name="submit_button">SUBMIT</string>
@@ -74,10 +73,4 @@
     <string name="entere">Enter your email-id</string>
     <string name="enterp">Set your Password</string>
     <string name="reg">Register</string>
-
-
-
-
-
-    <string name="pc_2">In the heart of Old Delhi, Chandni Chowk is a very busy shopping area with markets full of spices, dried fruits, silver jewellery and vivid saris, while the narrow side streets are crowded with tiny shops selling essential oils, stationary and traditional Indian sweets.</string>
 </resources>

@@ -83,7 +83,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Adarsh Nagar"
+                            android:text="@string/Adarsh"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -227,7 +227,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Ballimaran"
+                            android:text="@string/Ballimaran"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -298,7 +298,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Matai Mahal"
+                            android:text="@string/Matai"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -369,7 +369,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Sadar Bazar"
+                            android:text="@string/Sadar"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -440,7 +440,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Model Town"
+                            android:text="@string/Model"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -510,7 +510,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Shalimar Bagh"
+                            android:text="@string/Shalimar"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -581,7 +581,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Shakur Basti"
+                            android:text="@string/Shakur"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -651,7 +651,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Tri Nagar"
+                            android:text="@string/Tri"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -721,7 +721,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Wazirpur"
+                            android:text="@string/Wazir"
                             android:textSize="18dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -775,12 +775,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Male Voters"
+                        android:text="@string/male"
                         android:drawableStart="@drawable/purple"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="PwD(Divyang)"
+                        android:text="@string/Pw"
                         android:drawableStart="@drawable/yellow"/>
                 </LinearLayout>
                 <LinearLayout
@@ -791,12 +791,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Female Voters"
+                        android:text="@string/female"
                         android:drawableStart="@drawable/black"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Third Gender"
+                        android:text="@string/Third"
                         android:drawableStart="@drawable/red"/>
                 </LinearLayout>
             </LinearLayout>

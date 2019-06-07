@@ -7,23 +7,24 @@
     android:background="@color/homeBackground"
     >
 
+
     <EditText
         android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@id/edit2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_vertical"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="100dp"
-        android:hint="Email"
-        android:textSize="20dp"
-        android:inputType="textEmailAddress"
-        android:background="@color/colorWhite"
-        />
+        app:layout_constraintVertical_chainStyle="spread_inside" />
     <EditText
         android:id="@+id/edit2"
         android:layout_width="match_parent"
@@ -35,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@id/edit1"
         app:layout_constraintBottom_toTopOf="@id/button"
        android:layout_margin="10dp"
-        android:hint="Password"
+        android:hint="@string/pass"
         android:textSize="20dp"
         android:background="@color/colorWhite"
         />
@@ -49,7 +50,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="40dp"
-        android:text="LOGIN"
+        android:text="@string/logins"
         app:layout_constraintBottom_toTopOf="@id/edit3"
         android:textStyle="bold"
         android:textSize="20dp"
@@ -61,7 +62,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/edit3"
         app:layout_constraintTop_toBottomOf="@id/button"
-        android:text="Not a member? Sign up now"
+        android:text="@string/sign"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="20dp"
