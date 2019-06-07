@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="home_cc_1">Your Parliament Constituency</string>
+    <string name="home_cc_3">Click to know more</string>
+    <string name="home_cc_2">Chandni Chowk</string>
+    <string name="ps">Polling Station</string>
+    <string name="Info">Election Info</string>
+    <string name="kyc">Know your Candidates</string>
+    <string name="third_gender">Facilities for Third Gender</string>
+    <string name="PwD">Facilities for PwD(Divyang)</string>
+    <string name="login">Official\'s Login</string>
+    <string name="pc_1">CHANDNI CHOWK</string>
+    <string name="pc_3">Chandni Chowk has 10 assembly constituencies, which are:</string>
+    <string name="pc_2">In the heart of Old Delhi, Chandni Chowk is a very busy shopping area with markets full of spices, dried fruits, silver jewellery and vivid saris, while the narrow side streets are crowded with tiny shops selling essential oils, stationary and traditional Indian sweets.</string>
+</resources>

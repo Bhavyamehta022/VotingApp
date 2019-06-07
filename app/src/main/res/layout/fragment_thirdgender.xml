@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/homeBackground">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/linear1"
+           android:orientation="vertical"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="For using the facility of pickup and drop enter your EPIC no. and mobile no"
+               android:textSize="15dp"
+               android:textStyle="bold"
+               android:layout_weight="2"
+               android:layout_marginTop="20dp"
+               android:textAlignment="center"/>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:background="@color/colorDarkBlue"
+               android:layout_marginTop="10dp"
+               />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2"
+               android:layout_marginTop="30dp">
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:text="EPIC no."
+               android:textSize="20dp"
+               android:layout_weight=".7"
+               android:padding="10dp"
+               />
+           <EditText
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:hint="Enter EPIC no."
+               android:textAlignment="center"
+               android:layout_weight="1.3"
+               android:background="@color/colorWhite"
+               android:id="@+id/epicNo"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2"
+               android:layout_marginTop="10dp">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:text="Mobile no."
+                   android:textSize="20dp"
+                   android:layout_weight=".7"
+                   android:padding="10dp"/>
+               <EditText
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:hint="Enter Mobile no."
+                   android:textAlignment="center"
+                   android:layout_weight="1.3"
+                   android:background="@color/colorWhite"
+                   android:id="@+id/mobileNo"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2"
+               android:layout_marginTop="30dp">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:text="Pick-up "
+                   android:textSize="20dp"
+                   android:layout_weight=".7"
+                   android:padding="10dp"/>
+               <EditText
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:hint="Enter Pick-up Time"
+                   android:textAlignment="center"
+                   android:layout_weight="1.3"
+                   android:background="@color/colorWhite"
+                   android:id="@+id/pickup"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2"
+               android:layout_marginTop="10dp">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:text="Drop "
+                   android:textSize="20dp"
+                   android:layout_weight=".7"
+                   android:padding="10dp"/>
+               <EditText
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:hint="Enter Drop Time"
+                   android:textAlignment="center"
+                   android:layout_weight="1.3"
+                   android:background="@color/colorWhite"
+                   android:id="@+id/drop"/>
+           </LinearLayout>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear2"
+            app:layout_constraintTop_toBottomOf="@id/linear1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/button"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="Submit OTP"
+                android:onClick="submit"
+                android:textSize="10dp"
+
+
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.3"
+                android:hint="Enter OTP"
+                android:textAlignment="center"
+                android:background="@color/colorWhite"
+                android:id="@+id/otp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            app:layout_constraintTop_toBottomOf="@id/linear2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/playStore"
+            android:layout_marginTop="5dp"
+            android:text="Verify Phone No."
+            android:onClick="showOTP"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:background="@drawable/circle_yellow"
+            app:layout_constraintTop_toBottomOf="@id/button"
+            android:id="@+id/playStore"
+            android:text="Check out PwD app on Play Store"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="20dp"
+            android:onClick="openPlayStore"
+            />
+
+</android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/homeBackground">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find your Polling Station"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your EPIC no."
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/epicnum"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="GO"
+            android:id="@+id/button"
+            android:onClick="goButton"
+            android:textSize="20dp"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            >
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorDarkBlue"
+                app:layout_constraintBottom_toTopOf="@+id/t1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/constraint"
+                />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="NAME : Polling Station Name"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toTopOf="@id/t3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line" />
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:layout_marginTop="10dp"
+
+                android:layout_marginEnd="8dp"
+                android:onClick="goMap"
+                android:src="@drawable/nav"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/t3"
+                app:layout_constraintBottom_toTopOf="@id/facilities"/>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Queue : 10 "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/t1"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:id="@+id/facilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="FACILITIES"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/line2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image1" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="110dp"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/facilities" />
+
+            <TextView
+                android:id="@+id/water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:text="Drinking Water"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/wait"
+                app:layout_constraintEnd_toStartOf="@id/waterpic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line2" />
+
+            <ImageView
+                android:id="@+id/waterpic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/waitpic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/water"
+                app:layout_constraintTop_toBottomOf="@id/line2" />
+
+            <TextView
+                android:id="@+id/wait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:text="Waiting Room"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/medical"
+                app:layout_constraintEnd_toStartOf="@id/waitpic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/water" />
+
+            <ImageView
+                android:id="@+id/waitpic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/wait"
+                app:layout_constraintBottom_toTopOf="@+id/medicalpic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/wait"
+                app:layout_constraintTop_toBottomOf="@id/waterpic" />
+
+            <TextView
+                android:id="@+id/medical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:text="Medical Kit"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/medicalpic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/wait"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/medicalpic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/medical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/medical"
+                app:layout_constraintTop_toBottomOf="@id/waitpic" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
